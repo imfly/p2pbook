@@ -1,8 +1,7 @@
-### DApp Toolkit
+# P2Pbook
+An ebook self-publishing Dapp(decentralized application) based on blockchain powered by Crypti
 
-The official Crypti decentralized application (DApp) toolkit.
-
-Requires:
+### Requires
 
   * Crypti 0.5.0
 
@@ -18,15 +17,3 @@ Requires:
   * **routes.json** - JSON file defining the HTTP routes of every endpoint in your dapp's API.
 
 Full documentation is available [here](https://github.com/crypti/crypti-dapps-docs).
-
-curl -XPUT -H "Content-type: application/json" -d '{
-"recipientId": "18298233975495868793C",
-"message": "Hello, world!",
-"secret": "."
-}' 'http://localhost:7040/api/dapps/11700699929086527232/api/messages/add'
-
-curl -XGET 'http://localhost:7040/api/dapps/11700699929086527232/api/messages/list?recipientId=18298233975495868793C'
-
-18298233975495868793C
-
-/dapps/api/11700699929086527232/api/messages/list
