@@ -1,8 +1,8 @@
 {
-	"name": "DAppToolkit",
-	"version": "1.0.0",
-	"description": "The official Crypti decentralized application (DApp) toolkit",
-	"repository": "git@github.com:crypti/DAppToolkit.git",
+	"name": "p2pbook",
+	"version": "0.0.1",
+	"description": "An ebook self-publishing Dapp based on blockchain powered by Crypti",
+	"repository": "git@github.com:imfly/p2pbook.git",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
